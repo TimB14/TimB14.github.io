@@ -27,7 +27,7 @@ h3{
 }
 #contenu-a-propos{
     display:flex;
-    gap: 1em;
+    gap: 3em;
 }
 
 @media (max-width: 1250px) {
