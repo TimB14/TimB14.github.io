@@ -1,0 +1,47 @@
+header{
+    background-color: rgb(7, 69, 150);
+    color: black;
+    text-align: center;
+    line-height: 3em;
+    font-size: 1.5em;
+
+}
+h1{
+    font-size: 3em;
+}
+h2{
+    text-align: center;
+    font-size: 2em;
+    color: rgb(0, 0, 0);
+    padding-top: 1em;
+    padding-bottom: 1.25em;
+    padding-left: 1em;
+    background: rgb(32, 96, 179);
+}
+h3{
+    text-align: center;
+    font-size: 2em;
+}
+#contenu-a-propos{
+    display:flex;
+    gap: 1em;
+}
+
+@media (max-width: 1250px) {
+    #contenu-a-propos{
+        flex-direction : column;
+    }
+    #contenu-a-propos p{
+        text-align: center;
+    }
+}
+
+#contenu-a-propos p{
+    width: 200px;
+    font-size:1.5em ;
+    text-align: center;
+}
+
+#content{
+    width: 20%;
+}
