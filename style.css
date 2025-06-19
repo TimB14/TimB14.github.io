@@ -21,6 +21,9 @@ h2{
 h3{
     text-align: center;
     font-size: 2em;
+    background-color: rgb(4, 90, 204);
+    color: black;
+    line-height: 2.5em;
 }
 #contenu-a-propos{
     display:flex;
@@ -44,4 +47,7 @@ h3{
 
 #content{
     width: 20%;
+}
+h4{
+    text-align: center;
 }
